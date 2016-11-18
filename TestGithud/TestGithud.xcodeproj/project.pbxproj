@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63A7FB5E1DDE978600A5E6AF /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7FB5D1DDE978600A5E6AF /* BaseNavigationController.m */; };
+		63A7FB611DDE9A8000A5E6AF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7FB601DDE9A8000A5E6AF /* MainViewController.m */; };
+		63A7FB641DDE9AAD00A5E6AF /* aaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7FB631DDE9AAD00A5E6AF /* aaViewController.m */; };
+		63A7FB671DDE9AB700A5E6AF /* bbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7FB661DDE9AB700A5E6AF /* bbViewController.m */; };
 		63F99F8A1DDD9C280064C3FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F99F891DDD9C280064C3FC /* main.m */; };
 		63F99F8D1DDD9C280064C3FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F99F8C1DDD9C280064C3FC /* AppDelegate.m */; };
 		63F99F901DDD9C280064C3FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F99F8F1DDD9C280064C3FC /* ViewController.m */; };
@@ -16,6 +20,8 @@
 		63F99F9B1DDD9C280064C3FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F99F991DDD9C280064C3FC /* LaunchScreen.storyboard */; };
 		63F99FA61DDD9C280064C3FC /* TestGithudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F99FA51DDD9C280064C3FC /* TestGithudTests.m */; };
 		63F99FB11DDD9C290064C3FC /* TestGithudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F99FB01DDD9C290064C3FC /* TestGithudUITests.m */; };
+		63F99FC21DDDA39A0064C3FC /* KTDropdownMenuView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63F99FC11DDDA39A0064C3FC /* KTDropdownMenuView.bundle */; };
+		EA369B3ACA5CD0B168A1D1BE /* libPods-TestGithud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 362F357A61BD20CF9F2A5C3B /* libPods-TestGithud.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CABD0C2E15018EB933274EC /* Pods-TestGithud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGithud.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestGithud/Pods-TestGithud.release.xcconfig"; sourceTree = "<group>"; };
+		362F357A61BD20CF9F2A5C3B /* libPods-TestGithud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestGithud.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A7FB5C1DDE978600A5E6AF /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		63A7FB5D1DDE978600A5E6AF /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		63A7FB5F1DDE9A8000A5E6AF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		63A7FB601DDE9A8000A5E6AF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		63A7FB621DDE9AAD00A5E6AF /* aaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaViewController.h; sourceTree = "<group>"; };
+		63A7FB631DDE9AAD00A5E6AF /* aaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aaViewController.m; sourceTree = "<group>"; };
+		63A7FB651DDE9AB700A5E6AF /* bbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bbViewController.h; sourceTree = "<group>"; };
+		63A7FB661DDE9AB700A5E6AF /* bbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bbViewController.m; sourceTree = "<group>"; };
 		63F99F851DDD9C280064C3FC /* TestGithud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGithud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F99F891DDD9C280064C3FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63F99F8B1DDD9C280064C3FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +69,8 @@
 		63F99FAC1DDD9C290064C3FC /* TestGithudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGithudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F99FB01DDD9C290064C3FC /* TestGithudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGithudUITests.m; sourceTree = "<group>"; };
 		63F99FB21DDD9C290064C3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F99FC11DDDA39A0064C3FC /* KTDropdownMenuView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KTDropdownMenuView.bundle; sourceTree = "<group>"; };
+		AF1CFF3C57DF354C031FF8AA /* Pods-TestGithud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGithud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestGithud/Pods-TestGithud.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA369B3ACA5CD0B168A1D1BE /* libPods-TestGithud.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +106,8 @@
 				63F99FA41DDD9C280064C3FC /* TestGithudTests */,
 				63F99FAF1DDD9C290064C3FC /* TestGithudUITests */,
 				63F99F861DDD9C280064C3FC /* Products */,
+				E19CC6D80F87BCC520D562AE /* Pods */,
+				990F3A241A443078259A6B35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +124,7 @@
 		63F99F871DDD9C280064C3FC /* TestGithud */ = {
 			isa = PBXGroup;
 			children = (
+				63F99FC11DDDA39A0064C3FC /* KTDropdownMenuView.bundle */,
 				63F99F8B1DDD9C280064C3FC /* AppDelegate.h */,
 				63F99F8C1DDD9C280064C3FC /* AppDelegate.m */,
 				63F99F8E1DDD9C280064C3FC /* ViewController.h */,
@@ -113,6 +135,14 @@
 				63F99F9C1DDD9C280064C3FC /* Info.plist */,
 				63F99F941DDD9C280064C3FC /* TestGithud.xcdatamodeld */,
 				63F99F881DDD9C280064C3FC /* Supporting Files */,
+				63A7FB5C1DDE978600A5E6AF /* BaseNavigationController.h */,
+				63A7FB5D1DDE978600A5E6AF /* BaseNavigationController.m */,
+				63A7FB5F1DDE9A8000A5E6AF /* MainViewController.h */,
+				63A7FB601DDE9A8000A5E6AF /* MainViewController.m */,
+				63A7FB621DDE9AAD00A5E6AF /* aaViewController.h */,
+				63A7FB631DDE9AAD00A5E6AF /* aaViewController.m */,
+				63A7FB651DDE9AB700A5E6AF /* bbViewController.h */,
+				63A7FB661DDE9AB700A5E6AF /* bbViewController.m */,
 			);
 			path = TestGithud;
 			sourceTree = "<group>";
@@ -143,6 +173,23 @@
 			path = TestGithudUITests;
 			sourceTree = "<group>";
 		};
+		990F3A241A443078259A6B35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				362F357A61BD20CF9F2A5C3B /* libPods-TestGithud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E19CC6D80F87BCC520D562AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF1CFF3C57DF354C031FF8AA /* Pods-TestGithud.debug.xcconfig */,
+				0CABD0C2E15018EB933274EC /* Pods-TestGithud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63F99FB51DDD9C290064C3FC /* Build configuration list for PBXNativeTarget "TestGithud" */;
 			buildPhases = (
+				29C9542FF1E0165234454B95 /* [CP] Check Pods Manifest.lock */,
 				63F99F811DDD9C280064C3FC /* Sources */,
 				63F99F821DDD9C280064C3FC /* Frameworks */,
 				63F99F831DDD9C280064C3FC /* Resources */,
+				041F96BC6645596E8AB367C3 /* [CP] Embed Pods Frameworks */,
+				73CFE03184DE90E7DD55CD2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +260,7 @@
 				TargetAttributes = {
 					63F99F841DDD9C280064C3FC = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ESU935NVR6;
 						ProvisioningStyle = Automatic;
 					};
 					63F99FA01DDD9C280064C3FC = {
@@ -250,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63F99F9B1DDD9C280064C3FC /* LaunchScreen.storyboard in Resources */,
+				63F99FC21DDDA39A0064C3FC /* KTDropdownMenuView.bundle in Resources */,
 				63F99F981DDD9C280064C3FC /* Assets.xcassets in Resources */,
 				63F99F931DDD9C280064C3FC /* Main.storyboard in Resources */,
 			);
@@ -271,15 +323,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		041F96BC6645596E8AB367C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestGithud/Pods-TestGithud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29C9542FF1E0165234454B95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73CFE03184DE90E7DD55CD2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestGithud/Pods-TestGithud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63F99F811DDD9C280064C3FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A7FB671DDE9AB700A5E6AF /* bbViewController.m in Sources */,
 				63F99F961DDD9C280064C3FC /* TestGithud.xcdatamodeld in Sources */,
+				63A7FB611DDE9A8000A5E6AF /* MainViewController.m in Sources */,
 				63F99F901DDD9C280064C3FC /* ViewController.m in Sources */,
+				63A7FB641DDE9AAD00A5E6AF /* aaViewController.m in Sources */,
 				63F99F8D1DDD9C280064C3FC /* AppDelegate.m in Sources */,
 				63F99F8A1DDD9C280064C3FC /* main.m in Sources */,
+				63A7FB5E1DDE978600A5E6AF /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +528,10 @@
 		};
 		63F99FB61DDD9C290064C3FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF1CFF3C57DF354C031FF8AA /* Pods-TestGithud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESU935NVR6;
 				INFOPLIST_FILE = TestGithud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.TestGithud;
@@ -435,8 +541,10 @@
 		};
 		63F99FB71DDD9C290064C3FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CABD0C2E15018EB933274EC /* Pods-TestGithud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESU935NVR6;
 				INFOPLIST_FILE = TestGithud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.TestGithud;
@@ -509,6 +617,7 @@
 				63F99FB71DDD9C290064C3FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63F99FB81DDD9C290064C3FC /* Build configuration list for PBXNativeTarget "TestGithudTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +626,7 @@
 				63F99FBA1DDD9C290064C3FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63F99FBB1DDD9C290064C3FC /* Build configuration list for PBXNativeTarget "TestGithudUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +635,7 @@
 				63F99FBD1DDD9C290064C3FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

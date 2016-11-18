@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BaseNavigationController.h"
+#import "MainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,9 +18,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
+    MainViewController *vc = [[MainViewController alloc] init];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
+    
+    [self configureNavigationBar];
+    
     return YES;
 }
 
+
+- (void)configureNavigationBar {
+    
+    
+    
+    [UINavigationBar appearance].translucent = NO;
+    [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"nav"] forBarMetrics:UIBarMetricsDefault];
+    [UINavigationBar appearance].shadowImage = [[UIImage alloc] init];
+    
+    [UINavigationBar appearance].backIndicatorImage = [UIImage imageNamed:@"nav_back"];
+    [UINavigationBar appearance].backIndicatorTransitionMaskImage = [UIImage imageNamed:@"nav_back"];
+    
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60) forBarMetrics:UIBarMetricsDefault];
+    
+    // 取消按钮颜色
+    [UISearchBar appearance].tintColor = [UIColor colorWithRed:(93.0 / 255.0) green:(143.0 / 255.0) blue:(224.0 / 255.0) alpha:1.0];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
